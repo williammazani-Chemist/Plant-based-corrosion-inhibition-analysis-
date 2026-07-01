@@ -1,5 +1,3 @@
-# Corrosion Inhibition of Mild Steel Using Plant Extract
-
 ## Experimental Data Analysis Using Python
 
 **Author:** William Sylivester Mazani
