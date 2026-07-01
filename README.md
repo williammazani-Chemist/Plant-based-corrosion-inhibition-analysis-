@@ -1,43 +1,89 @@
 # Corrosion Inhibition of Mild Steel Using Plant Extract
 
-## 📌 Overview
-This project investigates the corrosion inhibition performance of a plant extract on mild steel in an acidic medium using multiple analytical approaches, including gravimetric analysis, adsorption isotherm modeling, and FTIR spectroscopy. The study evaluates how inhibitor concentration affects corrosion rate, adsorption behavior, and surface interactions.
+## Experimental Data Analysis Using Python
+
+**Author:** William Sylivester Mazani
+
+---
+
+## 📌 Project Overview
+This project presents a Python-based analysis of experimental data on the corrosion inhibition performance of a plant extract on mild steel in acidic medium.
+
+The study integrates:
+- Gravimetric analysis (weight loss, corrosion rate, inhibition efficiency)
+- Adsorption isotherm modeling (Langmuir isotherm)
+- FTIR spectral analysis (functional group interaction)
+- Scientific visualization and interpretation
+
+All analyses were performed using Python in Google Colab to ensure reproducibility and transparency.
+
+---
+
+## 🎯 Objectives
+The main objectives of this study were:
+
+1. To import and preprocess experimental datasets.
+2. To analyze gravimetric corrosion data (weight loss, corrosion rate, IE).
+3. To investigate the effect of inhibitor concentration on corrosion behavior.
+4. To model adsorption behavior using Langmuir isotherm.
+5. To compare FTIR spectra of pure and adsorbed plant extract.
+6. To interpret corrosion inhibition mechanisms using experimental evidence.
 
 ---
 
 ## 🧪 Methodology
 
 ### 1. Gravimetric Analysis
-- Weight loss measurements were used to determine corrosion rate.
-- Mild steel samples were immersed in acidic medium with varying inhibitor concentrations and time interval.
+- Weight loss measurements were used to evaluate corrosion rate.
+- Inhibition efficiency (IE) and surface coverage were calculated.
+- Effect of inhibitor concentration and exposure time was analyzed.
 
-### 2. Adsorption Isotherm Studies
-- Adsorption behavior of the plant extract on mild steel surface was analyzed.
-- Isotherm models were used to understand surface coverage and adsorption mechanism.
+### 2. Adsorption Isotherm (Langmuir Model)
+- Surface coverage data was used to compute C/θ values.
+- Langmuir model was applied to evaluate adsorption behavior.
+- Monolayer adsorption assumption was tested.
 
-### 3. FTIR Analysis
-- FTIR spectroscopy was used to identify functional groups in the plant extract.
-- Interaction between inhibitor molecules and mild steel surface was assessed based on spectral changes.
+### 3. FTIR Spectral Analysis
+- FTIR spectra of pure and adsorbed plant extract were compared.
+- Shifts in peak positions and intensity changes were analyzed.
+- Evidence of interaction between inhibitor molecules and metal surface was evaluated.
 
 ---
 
 ## 📊 Results & Interpretation
 
-### Gravimetric Interpretation
+### 🔬 Gravimetric Analysis Interpretation
 
 The weight loss of mild steel decreased as the inhibitor concentration increased, indicating that the plant extract effectively reduced metal dissolution in the acidic medium. This trend suggests that increasing the inhibitor concentration enhanced the formation of a protective adsorbed layer on the mild steel surface, thereby improving corrosion resistance. The observed behavior demonstrates the concentration-dependent corrosion inhibition performance of the plant extract.
 
 ---
 
-### Adsorption Isotherm Interpretation
-
-The adsorption behavior suggests that the plant extract molecules adhere to the mild steel surface, forming a protective layer that reduces corrosion activity. The relationship between inhibitor concentration and surface coverage indicates a concentration-dependent adsorption process, supporting the efficiency of the extract as a corrosion inhibitor.
+### ⚙️ Corrosion Rate Analysis
+The corrosion rate decreased with increasing inhibitor concentration, confirming that the plant extract effectively reduced the corrosion process. Higher concentrations resulted in improved protection efficiency of mild steel in acidic conditions.
 
 ---
 
-### FTIR Interpretation
+### 🛡️ Inhibition Efficiency (IE)
+The inhibition efficiency increased with increasing inhibitor concentration, indicating enhanced protection of mild steel as more inhibitor molecules adsorbed on the metal surface.
 
-FTIR analysis indicates the presence of functional groups capable of interacting with the mild steel surface. Changes in peak positions and intensities suggest possible adsorption of inhibitor molecules onto the metal surface, confirming the formation of a protective film responsible for corrosion inhibition.
+---
+
+### 📉 Langmuir Adsorption Isotherm
+The linear relationship between C/θ and inhibitor concentration suggests that adsorption of the plant extract follows the Langmuir isotherm model. This indicates monolayer adsorption of inhibitor molecules on a homogeneous metal surface.
+
+---
+
+### 🧬 FTIR Spectral Analysis
+The FTIR spectra revealed differences between the pure and adsorbed plant extract. Changes in peak positions and transmittance intensity suggest interaction between functional groups of the inhibitor and the mild steel surface. These changes confirm adsorption of active phytochemical constituents, forming a protective film responsible for corrosion inhibition.
+
+---
+
+## 📈 Key Findings
+- Weight loss decreases with increasing inhibitor concentration.
+- Corrosion rate is reduced by the plant extract.
+- Inhibition efficiency increases with concentration.
+- Langmuir isotherm confirms monolayer adsorption behavior.
+- FTIR confirms chemical interaction and adsorption on metal surface.
 
 ---
 
@@ -46,31 +92,18 @@ FTIR analysis indicates the presence of functional groups capable of interacting
 - Pandas
 - NumPy
 - Matplotlib
-- Scipy
 - Google Colab
 
 ---
 
-## 📈 Key Findings
-- Corrosion rate decreases with increasing inhibitor concentration.
-- Plant extract shows effective adsorption on mild steel surface.
-- FTIR confirms interaction between inhibitor molecules and metal surface.
-- Inhibition mechanism is supported by both gravimetric and adsorption studies.
-
----
-
 ## 🎯 Conclusion
-The plant extract exhibits strong corrosion inhibition properties through adsorption on mild steel surface, forming a protective layer that reduces metal dissolution. The combined gravimetric, adsorption isotherm, and FTIR analyses confirm that the inhibition process is concentration-dependent and surface-controlled.
+The plant extract demonstrates strong corrosion inhibition properties against mild steel in acidic medium. Gravimetric results, adsorption isotherm modeling, and FTIR analysis collectively confirm that inhibition occurs through adsorption of phytochemical constituents forming a protective monolayer on the metal surface.
+
+This makes the investigated plant extract a promising eco-friendly corrosion inhibitor.
 
 ---
 
 ## 🔬 Future Work
-- Electrochemical studies (EIS, Tafel polarization)
+- Electrochemical techniques (EIS, Tafel polarization)
 - Surface morphology analysis (SEM/AFM)
-- Computational modeling of adsorption mechanisms
-
-
-## 👤 Author
-William Sylivester Mazani   
-
-BSc Chemistry Student | Materials Science & Data Analysis Enthusiast
+- Quantum chemical modeling of adsorption mechanism.
